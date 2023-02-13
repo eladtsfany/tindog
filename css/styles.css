@@ -1,0 +1,171 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3 {
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+h2 {
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 2.0rem;
+}
+
+.testimonial-text {
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    width: 70%;
+    margin: auto;
+
+}
+
+.container {
+    padding: 3% 10% 3% 10%;
+    overflow: hidden;
+
+}
+
+.feature-icon {
+    color: #ef8172;
+    font-size: 2.5rem;
+    padding: 1.5rem 0 0.75rem 0;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.navbar {
+    margin-bottom: 3rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.nav-item {
+    padding: 0 1.5rem;
+}
+
+.btn-title {
+    margin: 5% 3% 5% 0;
+}
+
+.btn-cta {
+    margin: 2rem 1rem;
+}
+
+.title-image {
+    transform: rotate(25deg);
+    width: 60%;
+    margin-left: 5%;
+    position: absolute;
+    right: 30%;
+}
+
+#features {
+    background-color: white;
+    text-align: center;
+    color: #8f8f8f;
+    font-size: 0.75rem;
+    width: 85%;
+    margin: 5rem auto;
+    position: relative;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+
+}
+
+#pricing {
+    padding: 2rem;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.doggo-testimonial {
+    border-radius: 100%;
+    width: 8%;
+    margin: 1rem;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-pic {
+    width: 10%;
+    margin: 1rem 2.5rem 4rem;
+}
+
+#cta {
+    padding: 2.5rem;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+#cta-title {
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    width: 50%;
+    margin: auto;
+}
+
+#footer {
+    text-align: center;
+    margin: 2.5rem;
+}
+
+.footer-p {
+    color: #8f8f8f;
+    font-size: 0.7rem;
+
+}
+
+.footer-icon {
+    margin: 0 0.5rem 0.25rem 0;
+    font-size: 0.7rem;
+}
+
+@media (max-width: 992px) {
+    .title-image {
+        transform: rotate(0);
+        position: static;
+        margin-right: 2rem;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
